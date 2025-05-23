@@ -19,4 +19,4 @@ jobs:
 
       - name: Current directory is
         run: |
-          ls - l
+          ls -l
