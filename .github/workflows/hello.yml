@@ -15,8 +15,8 @@ jobs:
 
       - name: Show date
         run: |
-          echo date
+          date
 
       - name: Current directory is
         run: |
-          echo ls - l
+          ls - l
