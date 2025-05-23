@@ -13,6 +13,8 @@ jobs:
         run: |
           echo "Hello World!"
       - date: Not it is
-        run: date
+        run: |
+          echo date
       - current-directory:
-        run: ls - l
+        run: |
+          echo ls - l
