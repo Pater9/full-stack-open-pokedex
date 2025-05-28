@@ -53,6 +53,7 @@ jobs:
     needs: simple_deployment_job
     runs-on: ubuntu-24.04
     steps:
+      - uses: actions/checkout@v4
       - name: Bump version and push tag
         if: ${{ github.event_name == 'push' }}
         uses: anothrNick/github-tag-action@1.73.0
